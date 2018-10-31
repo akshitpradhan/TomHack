@@ -1,0 +1,40 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "TomTom","tomtom"],
+         "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "reminder",
+         "patterns": ["Remind me to", "Pick Up", "Drop" ],
+         "responses": ["We're open every day 9am-9pm", "Our hours are 9am-9pm every day"]
+        },
+        {"tag": "Reachable_Range",
+         "patterns": ["How far can I go?", "reachable range", "what is the range can I drive" ],
+         "responses": ["We accept VISA, Mastercard and AMEX", "We accept most major credit cards"]
+        },
+        {"tag": "route",
+         "patterns": ["How much time will it take for me to reach", "How far is", "ow long will it take to get to","In how much time will I reach","How long does it take to drive"],
+         "responses": ["We're open every day from 9am-9pm", "Our hours are 9am-9pm every day"]
+        },
+        {"tag": "Nearby",
+         "patterns": ["Nearby", "What locations are there nearby", "Places to see","what are the nearby places I can visit?","Attractive places worth visiting","Which are the good places where I can spend time?"],
+         "responses": ["Are you looking to rent today or later this week?"]
+        },
+        {"tag": "home",
+        "patterns": ["get my home ready before I reach there","reaching home in 10 minutes","all the required preaparations before I get there","Please ready my place within 10 minutes"],
+        "responses": ["For rentals today please call 1-800-MYMOPED", "Same-day rentals please call 1-800-MYMOPED"]
+        },
+        {"tag": "Traffic",
+         "patterns": ["Traffic Details","How is traffic to","What are the traffic conditions of the fastest route?"],
+         "responses": ["For rentals today please call 1-800-MYMOPED", "Same-day rentals please call 1-800-MYMOPED"]
+        }
+   ]
+}
+
